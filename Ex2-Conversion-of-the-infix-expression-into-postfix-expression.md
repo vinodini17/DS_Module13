@@ -15,11 +15,10 @@ To write a C program to convert the infix expression into postfix form using sta
 ## Program:
 ```
 /*
-Program to find and display the priority of the operator in the given Postfix expression
+Program to convert the infix expression into postfix expression
 Developed by: Vinodini R
 RegisterNumber: 212223040244
 */
-
 #include<stdio.h> #include<ctype.h>
 
 char stack[100]; int top = -1;
